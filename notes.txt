@@ -1,8 +1,0 @@
-Inspire from this 
-https://github.com/mhyrzt/Simple-MADRL-Chess/tree/main
-https://github.com/hzwer/ICCV2019-LearningToPaint
-
-Build env like Paint, use Agents like in MADRL then keep the same formatting for running env. 
-
--> Use the same functions to create the actions mask. the action mask is a tensor whose size is the number of possible moves a piece can make(8 for king, 28 for rook, 56 for pawn (can become queen)... ). the current positions and possible actions can be transferred easily
--> action_mask can be reproduced easily. Code it now! and try running the whole thing.
